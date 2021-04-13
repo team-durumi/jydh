@@ -5,6 +5,8 @@ theme = "tailwind-aa-theme"
 [build]
 writeStats = true
 
+disableKinds = ["RSS", "taxonomy", "term", "categories", "tags"]
+
 # 메뉴관련 처리
 
 [menu]
