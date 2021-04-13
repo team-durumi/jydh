@@ -2,23 +2,23 @@
 
 ###################### user/org information #####################
 user:
-  title : 전여대협 아카이브
-  tagLine : Durumi는 시민사회영역과 IT개발 영역에서 10년 이상의 경력을 가진 구성원 중심으로 구성된 5명의 개발팀입니다.
+  title : 전국여대생대표자협의회 아카이브
+  tagLine : 전국여대생대표자협의회 아카이브는 1987년 부터 ~
   tel : 02-0000-0000
   fax : 02-0000-0000
-  email : team@durumi.io
-  representative: 홍영택, 한운장, 김현민, 이용선, 정민수
+  email : yj.kim@wlb-lab.org
+  representative: 김영주
   location : Somewhere in Seoul
   footer :
     대표전화 : 02-0000-0000
     팩스 : 02-0000-0000
     주소 : Somewhere in Seoul
-    이메일 : team@durumi.io
-    대표자 : 홍영택, 한운장, 김현민, 이용선, 정민수
+    이메일 : yj.kim@wlb-lab.org
+    대표자 : 김영주
     year : "2021"
-    github : http://github.com/team-durumi
-    url : http://durumi.io
-    caption: Github/Team-Durumi
+    github : http://wlb-lab.org
+    url : http://wlb-lab.org
+    caption: wlb-lab.org
     fb : http://facebook.com
     tw : http://twitter.com
     instagram : http://instagram.com
