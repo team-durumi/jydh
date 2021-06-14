@@ -6,21 +6,38 @@ theme = "tailwind-aa-theme"
 [build]
 writeStats = true
 
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm", "categories", "tags"]
+[taxonomies]
+  tag = "tags"
+  creator = "creators"
 
 # 메뉴관련 처리
 
 [menu]
 
   [[menu.main]]
-  name = "Home"
+  name = "홈"
   URL = "/"
   weight = 1
 
   [[menu.main]]
-  name = "About"
-  URL = "/about"
+  name = "탐색"
+  URL = "/items"
   weight = 2
+
+  [[menu.main]]
+  name = "검색"
+  URL = "/search"
+  weight = 3
+
+  [[menu.main]]
+  name = "태그(주제어)"
+  URL = "/tags"
+  weight = 4
+
+  [[menu.main]]
+  name = "태그(생산자)"
+  URL = "/creators"
+  weight = 5      
 
   ############# footer menu #############
   [[menu.footer]]
