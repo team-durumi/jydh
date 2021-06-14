@@ -1,7 +1,8 @@
 baseURL = "https://relaxed-saha-198f20.netlify.app/"
 languageCode = "en-us"
 title = "전국여대생대표자협의회 아카이브"
-theme = "tailwind-aa-theme"
+theme = ["hugo-search-fuse-js","tailwind-aa-theme"]
+
 
 [build]
 writeStats = true
