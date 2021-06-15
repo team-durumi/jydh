@@ -1,5 +1,5 @@
-baseURL = "https://relaxed-saha-198f20.netlify.app/"
-languageCode = "en-us"
+baseURL = "https://jydh.durumi.io"
+languageCode = "ko-kr"
 title = "전국여대생대표자협의회 아카이브"
 theme = ["tailwind-aa-theme","hugo-search-fuse-js"]
 
