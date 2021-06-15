@@ -10,7 +10,7 @@ creators: "team-durumi"
 tags:	tag1
 created-date: ""
 link: "http://www.peace.com"
-image: "/items/RG-09기타전여대협&노트/1995/item-02/item-02.png"
+image: "/items/RG-01중앙여대협/1995/item-02/item-02.png"
 ---
 
 This is the second paragraph in the list item. You're
