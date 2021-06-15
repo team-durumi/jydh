@@ -25,7 +25,6 @@
       "h6",
       "head",
       "header",
-      "hr",
       "html",
       "img",
       "input",
@@ -38,18 +37,15 @@
       "p",
       "path",
       "pre",
+      "rect",
       "script",
       "section",
-      "small",
       "span",
       "strong",
       "svg",
-      "table",
-      "td",
       "template",
       "textarea",
       "title",
-      "tr",
       "ul"
     ],
     "classes": [
@@ -138,6 +134,7 @@
       "h-5",
       "h-6",
       "h-64",
+      "h-8",
       "h-auto",
       "h-full",
       "h-screen",
@@ -443,6 +440,7 @@
       "z-10"
     ],
     "ids": [
+      "Capa_1",
       "TableOfContents",
       "block-elements",
       "blockquotes",
