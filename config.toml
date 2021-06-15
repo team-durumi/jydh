@@ -11,6 +11,17 @@ writeStats = true
   tag = "tags"
   creator = "creators"
 
+
+ [module]
+
+  [[module.mounts]]
+    source = "themes/tailwind-aa-theme/exampleSite/static"
+    target = "static"
+
+  [[module.mounts]]
+    source = "themes/tailwind-aa-theme/exampleSite/data"
+    target = "data"  
+
 # 메뉴관련 처리
 
 [menu]
