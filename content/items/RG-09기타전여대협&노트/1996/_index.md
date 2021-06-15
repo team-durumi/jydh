@@ -1,6 +1,6 @@
 ---
-lastmod: 2021-06-03
-title: level2-1
+lastmod: 2021-06-11
+title: 1996년
 type: page
 ---
 

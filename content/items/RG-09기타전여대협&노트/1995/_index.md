@@ -1,6 +1,6 @@
 ---
-lastmod: 2021-06-11
-title: level2-2
+lastmod: 2021-06-03
+title: 1995년
 type: page
 ---
 

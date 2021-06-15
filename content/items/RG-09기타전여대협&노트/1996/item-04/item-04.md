@@ -7,7 +7,7 @@ title: item-04
 weight: 10
 author: "durumi"
 creators: "team-durumi"
-tags:	tag2
+tags:	tag2, 일본군'위안부'문제
 created-date: ""
 link: "http://www.peace.com"
 image: "/items/RG-09기타전여대협&노트/level2-2/item-04/item-04.png"
