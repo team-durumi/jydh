@@ -6,7 +6,7 @@ identifier: "aa-001"
 title: item-01
 weight: 10
 author: "durumi"
-creators: "team-durumi"
+creators: 전여대협1기
 tags:	tag1
 created-date: ""
 link: "http://www.peace.com"

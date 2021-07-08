@@ -6,8 +6,8 @@ identifier: "aa-005"
 title: item-05
 weight: 10
 author: "durumi"
-creators: "team-durumi"
-tags:	tag2, 일본군'위안부'문제
+creators: 전여대협1기
+tags:	tag2
 created-date: ""
 link: "http://www.peace.com"
 image: "/pdfs/paper_sample.pdf"

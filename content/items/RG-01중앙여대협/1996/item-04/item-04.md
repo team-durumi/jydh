@@ -6,8 +6,8 @@ identifier: "aa-004"
 title: item-04
 weight: 10
 author: "durumi"
-creators: "team-durumi"
-tags:	tag2, 일본군'위안부'문제
+creators: 전여대협1기
+tags:	tag2
 created-date: ""
 link: "http://www.peace.com"
 image: "/items/RG-01중앙여대협/1996/item-04/item-04.png"

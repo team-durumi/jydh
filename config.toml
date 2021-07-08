@@ -14,10 +14,6 @@ writeStats = true
 
  [module]
 
-  [[module.mounts]]
-    source = "themes/tailwind-aa-theme/exampleSite/data"
-    target = "data"  
-
 # 메뉴관련 처리
 
 [menu]
@@ -45,7 +41,12 @@ writeStats = true
   [[menu.main]]
   name = "태그(생산자)"
   URL = "/creators"
-  weight = 5      
+  weight = 5
+
+  [[menu.main]]
+  name = "사이트맵"
+  URL = "/sitemap.xml"
+  weight = 6          
 
   ############# footer menu #############
   [[menu.footer]]
