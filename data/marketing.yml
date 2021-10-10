@@ -4,25 +4,25 @@
 user:
   title : 전국여대생대표자협의회 아카이브
   tagLine : 전국여대생대표자협의회(전여대협)는 전국 각 대학 총여학생회장단의 협의기구입니다. 관련된 역사를 그대로 기록하고자 자료를 모아 아카이브를 공개합니다.
-  tel : 02-0000-0000
-  fax : 02-0000-0000
+  tel : 
+  fax : 
   email : hello@wlb-lab.org
-  representative: 대표자없음
-  location : Somewhere in Seoul
+  representative: 
+  location : 
   footer :
-    대표전화 : 02-0000-0000
-    팩스 : 02-0000-0000
-    주소 : Somewhere in Seoul
-    이메일 : hello@wlb-lab.org
-    대표자 : 전국여대생대표자협의회를 거쳐한 여대생
+    # 대표전화 : 
+    # 팩스 : 
+    # 주소 : 
+    # 이메일 : hello@wlb-lab.org
+    # 대표자 : 전국여대생대표자협의회를 거쳐한 여대생
     year : "2021"
-    github : https://wlb-lab.org
+    # github : https://wlb-lab.org
     url : https://wlb-lab.org
     caption: 일생활균형연구소
-    fb : 
-    tw : 
-    instagram : 
-    linkedin : 
+    # fb : 
+    # tw : 
+    # instagram : 
+    # linkedin : 
 
 ######## Partials/app에 노출되는 사용자 데이터를 편집합니다. ########
 
@@ -55,79 +55,84 @@ user:
 #   - src: 'https://images.unsplash.com/photo-1542683305-710078a12f73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'
 #     alt: 'A protester in Washington DC holds a sign featuring George Floyd.'
 #     caption: 'A protester in Washington DC holds a sign featuring George Floyd.'  
-#   - src: 'https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'
-#     alt: 'A protester in Washington DC holds a sign featuring George Floyd.'
-#     caption: 'A protester in Washington DC holds a sign featuring George Floyd.'
-#   - src: 'https://images.unsplash.com/photo-1544333323-ec9ed3218dd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'
-#     alt: 'A protester in Washington DC holds a sign featuring George Floyd.'
-#     caption: 'A protester in Washington DC holds a sign featuring George Floyd.'        
-#   - src: 'https://images.unsplash.com/photo-1591030617255-43892ec644bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1007&q=80'
-#     alt: 'A protester in Washington DC holds a sign featuring George Floyd.'
-#     caption: 'A protester in Washington DC holds a sign featuring George Floyd.'
-#   - src: 'https://images.unsplash.com/photo-1544427920-c49ccfb85579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1422&q=80'
-#     alt: 'Image of Black Lives Matter protest in London'
-#     caption: 'Black Lives Matter - London June 2020'
-#   - src: 'https://images.unsplash.com/photo-1591030617255-43892ec644bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1007&q=80'
-#     alt: 'A protester in Washington DC holds a sign featuring George Floyd.'
-#     caption: 'A protester in Washington DC holds a sign featuring George Floyd.'    
-#   - src: 'https://images.unsplash.com/photo-1542683305-710078a12f73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'
-#     alt: 'A protester in Washington DC holds a sign featuring George Floyd.'
-#     caption: 'A protester in Washington DC holds a sign featuring George Floyd.'  
-#   - src: 'https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'
-#     alt: 'A protester in Washington DC holds a sign featuring George Floyd.'
-#     caption: 'A protester in Washington DC holds a sign featuring George Floyd.'
-#   - src: 'https://images.unsplash.com/photo-1544333323-ec9ed3218dd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60'
-#     alt: 'A protester in Washington DC holds a sign featuring George Floyd.'
-#     caption: 'A protester in Washington DC holds a sign featuring George Floyd.'        
   
 
 ############################ featured-items ##########################
 featuredItems:
-  category : 자료
+  category : FEATURED
   title : 전여대협아카이브 대표 기록 소개
   enable : true
   content : 디지털아카이브에서 사용자들에게 쉽게 소개하며, 역사적 의의가 있는 아이템을 소개합니다.
   listItem:
-    - category : RG-01중앙여대협
-      title : 1.1991-제1차전체여학생대표회의
-      description : 성상품화 없는 신나는 세상을 위한 왕산여성주간 맞이 91년 제1차 전체여학생대표자회의
-      component : https://dummyimage.com/462x384
-      author: 제1기중앙여대협
-      date: 1991-04-16
+    - category : 
+      title : 1-노트-초기전여대협운동에 대한 평가
+      description : 
+      component : 'img/1-91년 제1차 전체여학생대표회의-표지.jpg'
+      author: 
+      date: 1988
       identifier: 1
       author: 
-      creator: 제1기중앙여대협
-      url : /items/rg-01중앙여대협/1991/1.1991-제1차전체여학생대표회의/
-
-    - category : RG-01중앙여대협
-      title : 1991-제2차전체여학생대표회의
-      description : 제2차 전체 여학생 대표자 회의(비상)
-      component : https://dummyimage.com/462x384
-      author: 제1기중앙여대협
-      date: 1991-05-02
+      creator: 조직 정체성
+      url : /items/rg-00-전여대협건설준비위원회/1988/1-노트-초기전여대협운동에-대한-평가/
+    - category : 
+      title : 동아대생리휴강이렇게이렇게시작했습니다1 
+      description :
+      component : 'img/생리휴강.gif'
+      author: 
+      date: 2004
       identifier: 2
       author: 
-      creator: 제1기중앙여대협
-      url : /items/rg-01중앙여대협/1991/2.1991-제2차전체여학생대표회의/
-
-    - category : RG-01중앙여대협
-      title : 전국 여대생 대표자 전진대회 제안서
-      description : 전국 여대생 대표자 협의회는 각 학교 여대표자 바로 여러분들의 사랑과 믿음속에 있습니다.
-      component : https://dummyimage.com/462x384
-      author: 제2기중앙여대협
-      date: 1992-06-22
+      creator: 학내활동
+      url : /items/rg-03-부경여대협/2004/동아대생리휴강이렇게이렇게시작했습니다1/
+    - category : 
+      title : 104-반성폭력 학칙 연구사업계획 
+      description :
+      component : 'img/학내성폭력근절 학칙운동.jpg'
+      author: 
+      date: 2005
       identifier: 3
       author: 
-      creator: 제1기중앙여대협
-      url : /items/rg-01중앙여대협/1992/3.모름1992추정/          
+      creator: 학내활동
+      url : /items/rg-01-중앙여대협/연대미상/104-반성폭력-학칙-연구사업계획/
+    - category : 
+      title : 농활자료집과여성농활_2006 
+      description :
+      component : 'img/성폭력 없는 여성주의 농촌활동을 위한 학교.jpg'
+      author: 
+      date: 2006
+      identifier: 4
+      author: 
+      creator: 연대활동
+      url : /items/rg-02-서여대협/2006/농활자료집과여성농활_2006/
+    - category : 
+      title : 일본군‘위안부’_2006 
+      description :
+      component : 'img/06.7.17 717차수요시위.jpg'
+      author: 
+      date: 2006
+      identifier: 5
+      author: 
+      creator: 연대활동
+      url : /items/rg-01-중앙여대협/2006/일본군위안부_2006/
+    - category : 
+      title : 일본군‘위안부’_2006 
+      description :
+      component : 'img/성폭력근절활동.jpg'
+      author: 
+      date: 2006
+      identifier: 6
+      author: 
+      creator: 조직혁신활동
+      url : /items/rg-01-중앙여대협/2006/한총련반성폭력규약신설단위토론제안/
+
 
 ############################ hero-right/left ##########################
 heroRight:
   enable : true
-  title : 전여대협 활동 기록을 보내주세요. 
-  subtitle : 더 많은 언니들의 기록을 찾습니다. 
-  content : 언니들의 서랍장 속에 꼭꼭 들어가 있는, 전여대협 활동 기록들을 보내주세요. 기록들을 모두 모아 잘 보관하고자 합니다. 
-  image : img/banner.jpg
+  title : 이 디지털아카이브는 
+  subtitle : "\"전국여대생대표자협의회\" 자료를 모아 만든 기억의 창고입니다."
+  content : 전국여대생대표자협의회는 1988년부터 2007년까지 전국의 대학내 여성주의 활동을 했던 여생학생 대표자 협의회 기구입니다.
+  image : 'img/1-여성학회건설을 위한 토론회 자료집-표지.jpg'
   # button
   buttonOne :
     enable : true
@@ -190,3 +195,4 @@ contact:
   category : 수집
   title : 함께 참여해서 아이템을 수집하세요!
   content : 디지털 아카이브에서 사용하는 기본 파일을 드래그해서 드롭하세요. 목록이 조사된 엑셀 파일이나, CSV 파일을 업로드하셔도 됩니다.
+  
