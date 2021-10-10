@@ -1,6 +1,5 @@
 /node_modules
 /resources
 /public
-/content/items
 # Local Netlify folder
 .netlify
