@@ -1,4 +1,4 @@
-baseURL = "https://jydh.durumi.io"
+baseURL = "https://www.jydh.or.kr"
 languageCode = "ko-kr"
 title = "전국여대생대표자협의회 아카이브"
 theme = ["tailwind-aa-theme","hugo-search-fuse-js-aa"]
