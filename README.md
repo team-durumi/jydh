@@ -13,6 +13,11 @@ $ npm i
 $ hugo serve --bind 0.0.0.0
 ```
 
+### develop(branch)
+- https://gohugo.io/templates/robots/#robotstxt-template-example
+- 구글 검색이 너무 잘 되어 robot.txt 추가
+- jydh.durumi.io
+
 ## 전여대협 아카이브 자료 관련 논의
 
 ### 자료관련
@@ -42,8 +47,6 @@ $ hugo serve --bind 0.0.0.0
 - 구글, 유투브 검색이 익숙한 사용자들은 검색, 키워드 중심으로 자료를 찾고 그 중심으로 자료를 재구성해서 이해함. 
 
 
-## 전여대협 디지털아카이브 구축
+## Production
 
-- 도메인 구매 진행해야 함. (실제로 자료에서 jydh 라는 이름으로 홈페이지가 있었음. )
-- 자료를 스캐닝 하고, 업데이트 하면서 탐색/검색
-- RG-09번에 자료 위계와 관련된 샘플 폴더를 붙여 놓았음. 
+- jydh.or.kr / Netlify
