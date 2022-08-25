@@ -5,6 +5,8 @@ description = "이 디지털아카이브는 \"전국여대생대표자협의회\
 theme = ["tailwind-aa-theme","hugo-search-fuse-js-aa"]
 images = ['img/1-여성학회건설을 위한 토론회 자료집-표지.jpg']
 enableRobotsTXT = true
+[params]
+  bucket_hostname = 'https://r2-public-worker.team5809.workers.dev/'
 
 [build]
 writeStats = true
