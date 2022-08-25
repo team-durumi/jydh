@@ -13,7 +13,7 @@ link:
 public_access_status: 
 copyright_status: 
 components:
-- https://jydh.s3.ap-northeast-2.amazonaws.com/RG-01-중앙여대협/2003/4-문건-N탈퇴,FUCK논란+외.pdf
+- "/RG-01-중앙여대협/2003/4-문건-N탈퇴,FUCK논란 외.pdf"
 tags:
 - 
 creators:

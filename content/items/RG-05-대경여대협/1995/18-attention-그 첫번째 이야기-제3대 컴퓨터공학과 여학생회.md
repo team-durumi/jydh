@@ -13,7 +13,7 @@ link:
 public_access_status: 
 copyright_status: 
 components:
-- https://jydh.s3.ap-northeast-2.amazonaws.com/RG-05-대경여대협/1995/18-attention-그+첫번째+이야기-제3대+컴퓨터공학과+여학생회.pdf
+- "/RG-05-대경여대협/1995/18-attention-그 첫번째 이야기-제3대 컴퓨터공학과 여학생회.pdf"
 tags:
 - 
 creators:

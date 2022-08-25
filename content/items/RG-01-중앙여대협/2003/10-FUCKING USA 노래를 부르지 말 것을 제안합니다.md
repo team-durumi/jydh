@@ -13,7 +13,7 @@ link:
 public_access_status: 
 copyright_status: 
 components:
-- https://jydh.s3.ap-northeast-2.amazonaws.com/RG-01-중앙여대협/2003/10-FUCKING+USA+노래를+부르지+말+것을+제안합니다.pdf
+- "/RG-01-중앙여대협/2003/10-FUCKING USA 노래를 부르지 말 것을 제안합니다.pdf"
 tags:
 - 
 creators:
