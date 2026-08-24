@@ -1,0 +1,27 @@
+# 전국여대생대표자협의회 아카이브
+> 이 디지털아카이브는 "전국여대생대표자협의회" 자료를 모아 만든 기억의 창고입니다.
+
+## About
+전국여대생대표자협의회(JYDH) 아카이브는 한국 민주화 운동 과정에서 전국여대생대표자협의회가 생산한 자료를 지역별·연도별로 정리한 디지털 아카이브입니다. 중앙, 서, 부경, 남, 대경, 충청, 경기, 전북 등 지역별 여대협 자료와 건설준비위원회 자료를 포함합니다.
+
+Website: https://jydh.org
+
+## Main Sections
+
+### 탐색
+- [아카이브 자료](/items): 지역별·레코드 그룹별 자료 탐색
+- [문서](/document): 관련 문서
+- [연구 가이드](/research-guide): 연구자를 위한 가이드
+
+### 정보
+- [소개](/about): 프로젝트 소개
+- [문의](/inquiry): 자료 접수 및 문의
+- [검색](/search): 통합 검색
+
+## Contact
+문의: /inquiry
+
+## Technical Information
+- Built with Hugo
+- Hosted on Cloudflare Pages
+- Last updated: 2026-08-14

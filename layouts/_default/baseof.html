@@ -1,32 +1,21 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
   <head>
     <meta charset="utf-8">
-    <title>
-      {{ .Site.Title }}
-      {{ .Site.Params.description }}
-    </title>
-    <meta name="description" content="{{ .Description }}">
-    {{/* styles */}}
-    {{ $options := dict "inlineImports" true }}
-    {{ $styles := resources.Get "css/styles.css" }}
-    {{ $styles = $styles | resources.PostCSS $options }}
-    {{ if  hugo.IsProduction  }}
-      {{ $styles = $styles | minify | fingerprint | resources.PostProcess }}
-    {{ end }}
-    <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{ hugo.Generator }}
+    {{- template "_internal/opengraph.html" . -}}
+    {{- template "_internal/twitter_cards.html" . -}}
+    {{- template "_internal/schema.html" . -}}
+    {{- partial "json-ld" . -}}
+    {{- block "headCss" . }}{{ end -}}
   </head>
-  {{ partial "basic/header.html" . }}
   <body>
-    <div class="xl:mx-auto lg:mx-auto md:mx-auto sm:mx-auto">
-      {{ block "main" . }}{{ end }}
-    </div>
+    {{- block "header" . }}{{- end }}
+    {{- block "main" . }}{{- end }}
+    {{- block "footer" . }}{{- end }}
   </body>
-  {{ block "footer" . }}
-    <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
-  {{ end }}
-  {{ partial "basic/footer.html" . }}
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" defer></script>
-  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 </html>

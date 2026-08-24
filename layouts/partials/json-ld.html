@@ -1,0 +1,69 @@
+{{/* JSON-LD Structured Data for JYDH */}}
+
+{{- $site := .Site -}}
+{{- $page := . -}}
+{{- $lang := .Site.Language.Lang -}}
+{{- $permalink := .Permalink -}}
+{{- $title := .Title -}}
+{{- $description := .Description | default .Site.Params.description -}}
+{{- $siteName := .Site.Title -}}
+
+{{/* Organization JSON-LD */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "전국여대생대표자협의회",
+  "alternateName": "JYDH",
+  "url": "https://jydh.org",
+  "description": "한국 민주화 운동 과정에서 전국여대생대표자협의회가 생산한 자료를 지역별·연도별로 정리한 디지털 아카이브입니다."
+}
+</script>
+
+{{/* Website JSON-LD */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ $siteName }}",
+  "url": "https://jydh.org",
+  "description": "{{ $description }}",
+  "inLanguage": "{{ $lang }}"
+}
+</script>
+
+{{/* Page-specific JSON-LD */}}
+{{- if .IsHome -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{ $siteName }}",
+  "url": "{{ $permalink }}",
+  "description": "{{ $description }}",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "{{ $siteName }}",
+    "url": "https://jydh.org"
+  },
+  "inLanguage": "{{ $lang }}"
+}
+</script>
+{{- else if .IsPage -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ $title }}",
+  "description": "{{ $description }}",
+  "url": "{{ $permalink }}",
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+  "author": {
+    "@type": "Organization",
+    "name": "전국여대생대표자협의회"
+  },
+  "inLanguage": "{{ $lang }}"
+}
+</script>
+{{- end -}}
